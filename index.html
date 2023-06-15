@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+ <body>
+    <div class="container">
+        
+    <form id="form_page"action="#">
+        <h1>Registration Form</h1>
+
+
+
+    <div class="input-icon">
+        <label for="name">Full Name</label><br>
+        <input id="name-value" class="user-box" type="text" placeholder="Enter your name" minlength="3" >
+        
+        <span id="name-error" class="error"></span>
+    </div>
+<br>
+
+     <div class="input-icon">
+        <label for="email">Email</label><br>
+        <input id="email-value" class="user-box"type="email" placeholder="Enter your email" >
+        
+        <span id="email-error" class="error"></span>
+    </div>
+<br>
+ 
+     <div class="input-icon">
+        <label for="password">Password</label><br>
+        <input id="pwd-value" class="user-box" placeholder="Enter your password" minlength="3" >
+            
+        <span id="pwd-error" class="error"></span>
+    </div>
+ <br>
+     <div class="input-icon">
+        <label for="mobile number">Mobile number</label><br>
+        <input id="phone-value" class="user-box"type="tel" placeholder="Enter mobile number" minlength="10"maxlength="10" >
+        
+        <span id="phone-error" class="error"></span>
+    </div>
+<br>
+    <div>
+       <center><button id="btn" type="submit" class="clicking">Register</button></center> 
+    </div>
+    <br>
+
+</form>
+
+
+ <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+ <!-- <h1>Users Database</h1> -->
+ <div>
+    <h1>Users Database</h1>
+ <table id="storage">
+        <thead>
+           <tr>
+            <th>Full Name</th>
+            <th>Email</th>
+            <th>Password</th>
+            <th>Phone</th>
+           </tr>
+        </thead>
+    
+    <tbody id="table_data">
+
+    </tbody>
+</table> <br>
+<button id="visible_table" class="clicking">DISPLAY</button>
+</div>
+
+
+
+
+<script src="./script.js"></script>
+
+</body>
+</html>
