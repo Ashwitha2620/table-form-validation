@@ -6,7 +6,7 @@ let data=[{FullName:"Ashwitha",Email:"ashwi26@gmail.com.",Password:"Ashwi$26",Ph
          ];
 
         //  let data=[{FullName:"Ashwitha",Email:"ashwi26@gmail.com.",city:"Ashwi$26",Phone:9787654321},
-        //           {FullName:"YAshas",Email:"yashas6@gmail.com.",city:"Yashas&26",Phone:8876795437},
+        //           {FullName:"Yashas",Email:"yashas6@gmail.com.",city:"Yashas&26",Phone:8876795437},
         //           {FullName:"Chethan",Email:"chetan26@gmail.com.",city:"cheta!26",Phone:7756665522},
         //           {FullName:"Dhana",Email:"dhanu26@gmail.com.",city:"Dhana#26",Phone:6347880321},
         //  ];
